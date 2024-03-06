@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id = "title">Application Form</h1>
+    <p id = "description">Please fill out this application for HireME.</p>
+    <form id= "survey-form">
+      <fieldset>
+        <label id = "name-label" for="name">First and last name: 
+        	<input id="name" name="name" type="text" placeholder = "Joe Smith" required />
+        </label>
+        <label id = "email-label" for="email">Email: 
+        	<input id="email" name="email" type="email" placeholder = "j.smith@hireme.com" required />
+        </label>
+        <label id = "number-label" for="gender">Gender: 
+			<select id="dropdown" name="dropdown">
+            	<option value="">(select one)</option>
+            	<option value="1">Female</option>
+            	<option value="2">Male</option>
+            	<option value="3">Non-binary</option>
+            	<option value="4">Other</option>
+          	</select>
+			<label>If other, tell us!</label>
+          		<textarea placeholder = "Other"></textarea>
+			</label>
+        </label>    
+        
+        <label for="dropdown">How did you hear about us?
+			<select id="dropdown" name="dropdown">
+            	<option value="">(select one)</option>
+            	<option value="1">Career Fair</option>
+            	<option value="2">Job Board</option>
+            	<option value="3">HireME.com</option>
+            	<option value="4">Other</option>
+          	</select>
+          	<label>If other, tell us!</label>
+          		<textarea placeholder = "Other"></textarea>
+        	</label>
+    	</label>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Are you a protected veteran?</legend>
+        <label for="survey_y"><input id="survey_y" value = "survey_y" type="radio" name="survey" class="inline" required/>Yes</label>
+        <label for="survey_n"><input id="survey_n" value = "survey_n" type="radio" name="survey" class="inline" required/>No</label>
+        <label for="survey_p"><input id="survey_p" value = "survey_p" type="radio" name="survey" class="inline" required/>Prefer not to answer</label>
+    </fieldset>
+    
+    </fieldset>
+      <label for="suggestion">What is you race? (check all that apply)
+    	</label>
+       
+       <label for="white"><input id="white" type="checkbox" name="white" class="inline" value = "White" />White</label>
+        <label for="asian"><input id="asian" type="checkbox" name="asian" class="inline" value = "Asian" />Asian</label>
+		<label for="black"><input id="black" type="checkbox" name="black" class="inline" value = "Black" />Black or African American</label>
+        <label for="native"><input id="native" type="checkbox" name="native" class="inline" value = "Native" />Native American or Native Alaskan</label>
+    	<label for="other"><input id="other" type="checkbox" name="other" class="inline" value = "Other" />Other</label>
+    </fieldset>
+    
+    <fieldset>
+		<label>Why do you want to work with us? (1000 word min)</label>
+			<textarea placeholder = "(feed our ego plz)"></textarea>
+		</label>
+    </fieldset>
+    
+      <input id = "submit" type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
