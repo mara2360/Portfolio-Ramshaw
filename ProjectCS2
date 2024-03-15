@@ -64,8 +64,8 @@ public class Program
 		int firstDigit = (int) (totalGPA / 10) % 10;
 		int secondDigit = (int) (totalGPA /100) % 10;
 		
-    Console.WriteLine("First Hour:");		
-    Console.WriteLine($"Class: {class1}\t\t\tGrade: {grade1}\t\t\tCredit Hours: {credit1}\n");
+    		Console.WriteLine("First Hour:");		
+    		Console.WriteLine($"Class: {class1}\t\t\tGrade: {grade1}\t\t\tCredit Hours: {credit1}\n");
 		Console.WriteLine("Second Hour:");	
 		Console.WriteLine($"Class: {class2}\t\t\tGrade: {grade2}\t\t\tCredit Hours: {credit2}\n");
 		Console.WriteLine("Third Hour:");	
