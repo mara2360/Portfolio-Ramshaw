@@ -25,7 +25,9 @@ public class Program
 		int firstDigit = (int) (totalGPA / 10) % 10;
 		int secondDigit = (int) (totalGPA /100) % 10;
 		
-    		Console.WriteLine("Jessica Smalbure Transcript\n");
+    		string userInput = Console.ReadLine();
+			
+		Console.WriteLine($"{userInput}'s Transcript\n");
  
     		Console.WriteLine("Class\t\t\t\tGrade\t\t Credit Hour\n");
     		Console.WriteLine($"English 101\t\t\t{englishGrade}\t\t\t{englishCredit}");
