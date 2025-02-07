@@ -1,6 +1,6 @@
 using System;
 					
-public class Program
+public class GPA_Clac
 {
 	public static void Main()
 	{
